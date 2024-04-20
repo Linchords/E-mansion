@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+#header {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    max-width: auto;
+    width: auto;
+}
+
+.logo {
+    width: 10%;
+    position: relative;
+    left: 45%;
+}
+
+.container > nav > ul {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 8vh;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: maroon;
+    width: 100%;
+    border-radius: 5px;
+    position: sticky;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+}
+
+
+.card {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+.container li {
+    list-style: none;
+}
+
+li > a {
+    color: white;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.icon {
+    color: white;
+    width: 10px;
+    margin-left: 20px;
+}
+
+.triangle {
+    float: left;
+    margin-top: 5px;
+    font-size: 10px;
+    color: lightgray;
+}
+
+/* HERO */
+
+.intro {
+    position: relative;
+    height: 67vh;
+}
+
+.intro img {
+   height: 40%;
+   width: 60%;
+   margin-left: 10px;
+   position: absolute;
+   top: 20px;
+   left: 0;
+   animation: slide 20s infinite;
+}
+
+/*@keyframes slide {
+    0% {left: 0;}
+    33.33% {left: -100%;}
+    66.66% {left: -200%;}
+    100% {left: 0;}
+}
+*/
+.intro > .image2 > img {
+   float: left;
+   margin: 20px;
+   overflow: hidden;
+   position: relative;
+}
+
+.box {
+    position: relative;
+    top: 40px;
+    padding: 30px;
+    margin-left: 62%;
+    justify-content: right;
+    box-shadow: 0 5px 15px rgba(227, 200, 200, 0.06);
+    z-index: 999;
+    border: 5px;
+    height: 408px;
+    width: fit-content;
+}
+
+.one {
+    margin-bottom: 10px;
+}
+
+.two {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+span {
+    color: midnightblue;
+}
+
+.horizon {
+    height: 10px;
+    border: none;
+    background-color: brown;
+    border-radius: 5px;
+    margin-right: 81%;
+}
+
+.responsive-div {
+    width: auto;
+    max-width: auto;
+    height: auto;
+}
+.responsive-box {
+    height: auto;
+    max-width: auto;
+    width: auto;
+}
+
+
+/* HERO2 */
+.hero2 {
+    height: 100vh;
+    position: relative;
+}
+
+.grid-container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1.1fr 2fr 1.3fr;
+    grid-template-rows: 1.1fr  ;
+    gap: 20px;
+    height: px;
+    position: absolute;
+    top: 40px;
+    border-radius: 5px;
+}
+
+.grid-container img {
+    height: 35vh;
+    width: 26.3vh;
+    position: relative;
+    left: 20px;
+}
+
+.grid-container .paragraph {
+    background-color: rgb(240, 237, 237);
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    left: 20px;
+    
+}
+
+.text {
+    font-size: 0.7rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.new {
+    font-size: 1rem;
+    position: relative;
+    bottom: 10px;
+}
+
+.news hr {
+    height: 7px;
+    border: none;
+    background-color: brown;
+    border-radius: 5px;
+    margin-right: 85%;
+}
+
+.monday {
+   margin-top: 20px;
+   font-size: 12px;
+   color: rgb(79, 77, 77);
+}
+
+.tuesday {
+    font-size: 12px;
+   color: rgb(79, 77, 77);
+   margin-top: 40px;
+}
+
+.vice {
+}
+
+.news {
+    padding: 20px;
+    margin-right: 20px;
+    border: 0.5px solid grey;
+    border-top: 0;
+    border-bottom: 0;
+   
+}
+
+.document {
+    padding: 20px;  
+}
+
+.document .hr {
+    height: 7px;
+    border: none;
+    background-color: brown;
+    border-radius: 5px;
+    margin-right: 36vh;
+    margin-bottom: 20px ;
+}
+
+.open {
+    text-align: start;
+    color: rgb(77, 75, 75);
+    font-size: 0.8rem;
+    
+}
+
+.hey {
+    margin-top: 20px;
+    text-align: start;
+    color: rgb(77, 75, 75);
+    font-size: 0.8rem;
+}
+
+.line {
+    height: 0px;
+    margin-top: 20px;
+    background-color: rgb(112, 109, 109); 
+}
+
+.length {
+    grid-column: span 2;
+}
+
+#third {}
+
+.hero3 > div > img{
+    margin-left: 20px;
+    width: 500px;
+    height: 55vh;
+    float: left;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-basis: 30px;
+    gap: 10px;
+    align-content: center;
+    padding: 20px;
+    font-size: 40px;
+    
+}
+.spa {
+    font-size: 20px;
+    color: maroon;
+}
+
+.icon-container > div {
+    background-color: #e4e2de;
+}
+
+.div-one, .div-two, .div-three{
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #002658; 
+    padding: 20px;
+    color: white;
+    width: 100%;
+
+  }
+  footer h2 {
+    margin-bottom: 10px;
+  }
+  footer p {
+    margin-bottom: 20px;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav a {
+    ma;
+    text-decoration: none;
+    color: white; /* Link color */
